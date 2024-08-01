@@ -567,6 +567,12 @@ class ControlParameterIndexUpdater {
   }
 }
 
+console.log("[JUCE-mFF] All modules initialized. Registered: ",
+  sliderStates.values.length, "Sliders,",
+  toggleStates.values.length, "Toggles,",
+  comboBoxStates.values.length, "ComboBoxes."
+);
+
 export {
   getNativeFunction,
   getSliderState,
